@@ -1,0 +1,29 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.nav
+*.snm
+*.out
+*.toc
+*.vrb
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*-SAVE-ERROR
+
+# NOTE: no blanket *.pdf rule on purpose.
+# Overall.pdf and zeiler_fig2.pdf are source FIGURES included by main.tex
+# (lines 2057, 2116, 2161) -- ignoring them breaks the Module 1 build.
+
+# OS / editor
+.DS_Store
+
+# Local agent settings (machine-specific)
+.claude/settings.local.json
+
+# Jupyter
+.ipynb_checkpoints/

@@ -39,7 +39,3 @@ module*/*.bcf
 module*/*.run.xml
 module*/*.fls
 module*/*.fdb_latexmk
-
-# Oversized deck: 55 MB, exceeds GitHub's 50 MB warning / 100 MB hard limit.
-# Rebuild locally from module1/m1l4.tex, or track via Git LFS if it must be shared.
-module1/m1l4.pdf
